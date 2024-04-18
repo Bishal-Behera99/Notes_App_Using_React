@@ -1,8 +1,8 @@
-# Create a Notes App project Using React.js  where we can add and delete notes.
+# Create a Notes App project Using React.js.
 
 # Used different state Hooks and components. 
 
-# Used Props and callbackfunction to pass data from parent to child and viceversa. 
+# Used Props and callback function to pass data from parent to child and viceversa. 
 
 # Used some validation like trim function ,character limit.
 
