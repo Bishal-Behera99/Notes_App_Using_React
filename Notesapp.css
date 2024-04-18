@@ -1,0 +1,85 @@
+.Note-list{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 10px;
+    max-width: 960px;
+    margin-inline: auto;
+}
+
+
+.Note-body{
+
+    background-color: #fef68a;
+    margin-bottom: 5px;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+.note-foot{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Add Note */
+
+.new{
+
+    background-color: #67d7cc;
+}
+textarea{
+    border: none;
+    resize: none;
+    background-color: #67d7cc;
+    padding: 5px 10px;
+}
+textarea:focus{
+    outline:none;
+}
+.save{
+
+    background-color: #e1e1e1;
+    padding: 5px 10px;
+    
+}
+.save:hover{
+    background:#ededed;
+    cursor: pointer;
+}
+
+/* Search Icon */
+
+.searchnote{
+    max-width: 960px;
+    background-color: #807c7c;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.Inputtext{
+
+    background-color: #807c7c;
+    border: none;
+    resize: none;
+    color: #67d7cc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Inputtext:focus{
+
+    outline: none;
+}
+
